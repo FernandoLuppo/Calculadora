@@ -12,6 +12,7 @@ body {
 header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -37,6 +38,7 @@ header > img {
 }
 
 #countainers > button {
+  border: none;
   font-weight: bolder;
   font-size: 25px;
   background-color: #000000;
