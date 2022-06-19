@@ -16,7 +16,6 @@ function insertOperation(operation) {
 
 function clearAll(c) {
   result.innerHTML = c;
-  afterResult.innerHTML = c;
 }
 
 function del() {
